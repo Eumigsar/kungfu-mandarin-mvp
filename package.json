@@ -1,7 +1,7 @@
 {
   "name": "kungfu-mandarin-mvp",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
+    "dotenv": "^16.4.5",
     "next": "14.2.5",
     "react": "18.3.1",
     "react-dom": "18.3.1"
