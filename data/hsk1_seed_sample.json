@@ -1,0 +1,32 @@
+[
+  {
+    "hanzi": "老师",
+    "pinyin": "lǎoshī",
+    "pt": "professor; professora",
+    "tags": ["dojo", "pessoas"],
+    "dojo_context": "No pátio do dojo, o mestre observa em silêncio.",
+    "examples": [
+      {
+        "example_hanzi": "他是老师。",
+        "example_pinyin": "Tā shì lǎoshī.",
+        "example_pt": "Ele/ela é professor(a).",
+        "difficulty": 1
+      }
+    ]
+  },
+  {
+    "hanzi": "学生",
+    "pinyin": "xuésheng",
+    "pt": "estudante; aluno; aluna",
+    "tags": ["dojo", "pessoas"],
+    "dojo_context": "Todo aluno começa imitando a postura do mestre.",
+    "examples": [
+      {
+        "example_hanzi": "我是学生。",
+        "example_pinyin": "Wǒ shì xuésheng.",
+        "example_pt": "Eu sou estudante.",
+        "difficulty": 1
+      }
+    ]
+  }
+]
