@@ -14,7 +14,9 @@ export default function RootLayout({
 				style=
 					margin: 0,
 					fontFamily:
-						"system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif",
+						"system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
+					background: '#071218',
+					color: 'rgba(255,255,255,0.92)',
 				
 			>
 				{children}
