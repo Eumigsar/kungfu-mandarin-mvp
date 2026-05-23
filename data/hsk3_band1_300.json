@@ -1,0 +1,17 @@
+[
+	{
+		"hanzi": "老师",
+		"pinyin": "lǎoshī",
+		"pt": "professor; professora",
+		"tags": ["dojo", "pessoas"],
+		"dojo_context": "No pátio do dojo, o mestre observa em silêncio.",
+		"examples": [
+			{
+				"example_hanzi": "他是老师。",
+				"example_pinyin": "Tā shì lǎoshī.",
+				"example_pt": "Ele/ela é professor(a).",
+				"difficulty": 1
+			}
+		]
+	}
+]
