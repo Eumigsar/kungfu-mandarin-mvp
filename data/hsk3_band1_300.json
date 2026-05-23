@@ -13,5 +13,20 @@
 				"difficulty": 1
 			}
 		]
+	},
+	{
+		"hanzi": "你好",
+		"pinyin": "nǐ hǎo",
+		"pt": "olá",
+		"tags": ["saudacoes", "dojo"],
+		"dojo_context": "A saudação abre portas no dojo.",
+		"examples": [
+			{
+				"example_hanzi": "你好！",
+				"example_pinyin": "Nǐ hǎo!",
+				"example_pt": "Olá!",
+				"difficulty": 1
+			}
+		]
 	}
 ]
