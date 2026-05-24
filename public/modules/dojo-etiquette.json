@@ -1,0 +1,151 @@
+{
+	"moduleId": "dojo-etiquette-v1",
+	"title": "Etiqueta & Convívio (Dojo)",
+	"subtitle": "Frases úteis + tradições para evitar gafes — com treino rápido",
+	"characters": [
+		{
+			"id": "master-liang",
+			"name": "Mestre Liang",
+			"role": "mentor",
+			"voice": "calmo, direto, protetor",
+			"bio": "O mestre do pátio. Ensina mandarim como disciplina: pouco, bem feito, com contexto."
+		},
+		{
+			"id": "mei",
+			"name": "Mei",
+			"role": "companheira",
+			"voice": "bem-humorada, prática, social",
+			"bio": "Cuida do salão de chá. Mostra como falar sem soar frio(a) e como evitar gafes em visitas."
+		},
+		{
+			"id": "bao",
+			"name": "Bao",
+			"role": "sparring",
+			"voice": "brincalhão, competitivo",
+			"bio": "Treina com você. Faz perguntas rápidas e cobra resposta em 3 camadas (PT + Hanzi + Pinyin)."
+		}
+	],
+	"lessons": [
+		{
+			"id": "greetings",
+			"title": "Cumprimentos & microconversa",
+			"goal": "Saber cumprimentar, agradecer e encerrar conversa sem estranheza.",
+			"items": [
+				{
+					"pt": "olá",
+					"hanzi": "你好",
+					"pinyin": "nǐ hǎo",
+					"example": {
+						"hanzi": "你好！",
+						"pinyin": "Nǐ hǎo!",
+						"pt": "Olá!"
+					},
+					"accepted": ["你好", "nihao", "ni3hao3", "nǐ hǎo"]
+				},
+				{
+					"pt": "obrigado(a)",
+					"hanzi": "谢谢",
+					"pinyin": "xièxie",
+					"example": {
+						"hanzi": "谢谢！",
+						"pinyin": "Xièxie!",
+						"pt": "Obrigado(a)!"
+					},
+					"accepted": ["谢谢", "xiexie", "xie4xie", "xièxie"]
+				},
+				{
+					"pt": "de nada",
+					"hanzi": "不客气",
+					"pinyin": "bú kèqi",
+					"example": {
+						"hanzi": "不客气。",
+						"pinyin": "Bú kèqi.",
+						"pt": "De nada."
+					},
+					"accepted": ["不客气", "bukeqi", "bu2ke4qi", "bú kèqi"]
+				},
+				{
+					"pt": "tchau",
+					"hanzi": "再见",
+					"pinyin": "zàijiàn",
+					"example": {
+						"hanzi": "再见！",
+						"pinyin": "Zàijiàn!",
+						"pt": "Tchau!"
+					},
+					"accepted": ["再见", "zaijian", "zai4jian4", "zàijiàn"]
+				}
+			]
+		},
+		{
+			"id": "apologies",
+			"title": "Desculpas & reparar clima",
+			"goal": "Pedir desculpa e reduzir tensão quando algo sai errado.",
+			"items": [
+				{
+					"pt": "desculpa",
+					"hanzi": "对不起",
+					"pinyin": "duìbuqǐ",
+					"example": {
+						"hanzi": "对不起。",
+						"pinyin": "Duìbuqǐ.",
+						"pt": "Desculpa."
+					},
+					"accepted": ["对不起", "duibuqi", "dui4bu5qi3", "duìbuqǐ"]
+				},
+				{
+					"pt": "tudo bem / não tem problema",
+					"hanzi": "没关系",
+					"pinyin": "méiguānxi",
+					"example": {
+						"hanzi": "没关系。",
+						"pinyin": "Méiguānxi.",
+						"pt": "Tudo bem."
+					},
+					"accepted": ["没关系", "meiguanxi", "mei2guan1xi", "méiguānxi"]
+				}
+			]
+		}
+	],
+	"etiquette": [
+		{
+			"id": "hashi-rice",
+			"title": "À mesa: não espete os hashis no arroz",
+			"why": "Em alguns contextos, lembra incenso ritual. Evite para não soar desrespeitoso.",
+			"doInstead": "Apoie os hashis ao lado ou no apoio de hashi, se houver."
+		},
+		{
+			"id": "gift-four",
+			"title": "Presentes: evite 4 unidades",
+			"why": "Em algumas regiões, 4 pode soar como 'morte'. Não é regra absoluta, mas é uma cautela fácil.",
+			"doInstead": "Dê 3, 6 ou 8 unidades se fizer sentido."
+		},
+		{
+			"id": "gift-watch",
+			"title": "Presentes: evite relógio",
+			"why": "Pode ter associações negativas em algumas interpretações culturais.",
+			"doInstead": "Chá, frutas ou um doce típico são opções seguras."
+		}
+	],
+	"drills": [
+		{
+			"id": "three-layer",
+			"title": "Resposta em 3 camadas",
+			"instructions": [
+				"1) Diga o significado em PT.",
+				"2) Diga o Hanzi.",
+				"3) Diga o Pinyin (aceita com/sem tons, com números).",
+				"4) Repita uma frase curta (Hanzi + Pinyin + PT)."
+			]
+		},
+		{
+			"id": "error-repeat",
+			"title": "Repete só se errar",
+			"instructions": [
+				"Se errou, você tenta o mesmo item mais 1 vez.",
+				"Se acertou, o sistema avança.",
+				"A revisão volta depois, pelo SRS (não por repetição chata)."
+			]
+		}
+	]
+}
