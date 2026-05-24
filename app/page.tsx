@@ -1,8 +1,11 @@
+import Link from 'next/link'
+
 const pageStyle: React.CSSProperties = {
 	maxWidth: 960,
 	margin: '40px auto',
 	padding: 16,
 	lineHeight: 1.5,
+	fontFamily: 'system-ui, -apple-system, Segoe UI, sans-serif',
 }
 
 export default function Home() {
@@ -14,14 +17,13 @@ export default function Home() {
 				<strong>HSK1 only (por enquanto)</strong> • Chat: PT + Mandarim.
 			</p>
 			<ul>
-				<li>Próximo: integrar Supabase + seed 300–500 itens</li>
+				<li>
+					<Link href="/training">Ir para o treino (v0)</Link>
+				</li>
+				<li>Próximo: integrar Supabase + seed 300 itens (HSK 3.0 Band 1)</li>
 				<li>Próximo: chat do Mestre Liang (OpenAI) com guardrails HSK1</li>
 				<li>Próximo: motor de atividades + SRS + anti-repetição</li>
 			</ul>
-			<p style= opacity: 0.7 >
-				Este repo é o esqueleto do MVP real. A prova de conceito offline está no repo{' '}
-				<code>kungfu-mandarin</code>.
-			</p>
 		</main>
 	)
 }
